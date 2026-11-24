@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CloudNova provides modern cloud computing, cloud storage, deployment and DevOps solutions.">
+  <title>CloudNova | Cloud Computing Solutions</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">CloudNova<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li><li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li><li><a href="#deployment">Deployment</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tagline">WELCOME TO THE CLOUD WORLD</p>
+        <h1>Power Your Future With <span>Cloud Technology</span></h1>
+        <p>Discover reliable cloud computing, secure storage, modern infrastructure and intelligent DevOps solutions.</p>
+        <a href="#services" class="btn">Explore Services</a>
+      </div>
+      <div class="cloud-icon" aria-hidden="true">☁️</div>
+    </section>
+    <section class="services section" id="services">
+      <h2>Our Cloud Services</h2>
+      <p class="section-description">Explore our essential cloud computing services.</p>
+      <div class="service-container">
+        <article class="service-card"><div class="service-icon">☁️</div><h3>Cloud Computing</h3><p>Access computing resources and applications through cloud infrastructure.</p></article>
+        <article class="service-card"><div class="service-icon">💾</div><h3>Cloud Storage</h3><p>Store and manage digital information using secure cloud storage.</p></article>
+        <article class="service-card"><div class="service-icon">🚀</div><h3>Cloud Deployment</h3><p>Deploy websites and applications using modern cloud platforms.</p></article>
+        <article class="service-card"><div class="service-icon">⚙️</div><h3>DevOps Automation</h3><p>Improve software development using automation and deployment workflows.</p></article>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <h2>About Our Project</h2>
+      <p>CloudNova is a responsive static website developed as a Cloud Computing and DevOps project. It demonstrates website development, version control, cloud hosting, deployment and performance monitoring.</p>
+      <div class="stats">
+        <div><h3>100%</h3><p>Responsive Design</p></div>
+        <div><h3>24/7</h3><p>Monitoring Setup</p></div>
+        <div><h3>HTTPS</h3><p>Secure Hosting</p></div>
+      </div>
+    </section>
+    <section class="deployment section" id="deployment">
+      <h2>Deployment Workflow</h2>
+      <div class="workflow">
+        <div class="workflow-item"><span>01</span><h3>Develop</h3><p>Create website using HTML, CSS and JavaScript.</p></div>
+        <div class="workflow-item"><span>02</span><h3>Upload</h3><p>Push project source code to GitHub.</p></div>
+        <div class="workflow-item"><span>03</span><h3>Deploy</h3><p>Publish website using GitHub Pages.</p></div>
+        <div class="workflow-item"><span>04</span><h3>Monitor</h3><p>Check website availability and performance.</p></div>
+      </div>
+    </section>
+    <section class="contact section" id="contact">
+      <h2>Contact Us</h2><p>Have a question about cloud technology? Contact us.</p>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <textarea id="message" placeholder="Enter your message" required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <p id="formMessage" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer><p>© <span id="year"></span> CloudNova. Cloud Computing &amp; DevOps Project.</p><p>Developed for Cognevance Technologies Project Tasks.</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
